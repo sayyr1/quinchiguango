@@ -1,0 +1,52 @@
+body{
+    margin:auto;
+}
+h1{
+    color:yellowgreen;
+    font-size:60px;
+    text-align:left;
+    padding:20px;
+    margin-left:100px;
+    font-family: 'Lobster', cursive;
+
+}
+h2, body{
+font-family: 'Source Serif Pro', serif; 
+
+}
+header{
+    background-color:grey;
+    height: 120px;
+    margin: auto;
+    border-radius:10px;
+  
+}
+img{
+    float:right;
+    margin-top:-104px;
+    margin-right:20px;
+    width:150px;
+    height: 200px;
+    box-shadow: 0 5px 20px 5px rgba(0,0,0,0.5);
+}
+h2 {
+    font-size: 30px;
+    border-bottom:1px ridge grey;
+}
+main{
+    height:170px;
+    line-height:1.5em;
+    margin-top:70px;
+}
+footer{
+    background-color:grey;
+    height: 20px;
+    margin: auto;
+    border-radius:10px;
+    text-align:center;
+    padding:2em;
+    }
+    footer div{
+        color:yellow;
+        font-size: 15px;
+    }
