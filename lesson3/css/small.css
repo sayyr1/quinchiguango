@@ -1,0 +1,106 @@
+* {-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box; box-sizing:border-box;}
+/*nav rules here */
+nav {
+    background-color:#E7C15F
+    ;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color:#9E87C0
+    ;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*header rules here*/
+header{
+    background-color:#33C1B1;
+    color:white;
+    padding:1rem 2%;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;}
+
+/*body*/
+h1{ font-size: 40px;text-align: center;}
+h2 {font-size: 30px;}
+h3 {font-size: 20px;}
+body p, ol{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: justify ;}
+header h2{ margin:0;}
+/*image rules*/
+.domain { width: 100%;}
+.large { display:none;}
+.small { max-width: 100%;
+margin-left: 50px;}
+.logo { max-width: 100%;}
+/*Color rules*/
+#color1{
+    background-color:#33C1B1;
+}
+#color2{
+        background-color:#E7C15F;}
+#color3{
+       margin-bottom: 10px;
+        background-color:#9E87C0;
+    }
+/*Typography rules*/
+
+#S1{font-family: 'Montserrat', sans-serif;
+font-size:40px; background-color:#33C1B1; color:black;}
+#S2{font-family: 'Montserrat', sans-serif;
+    font-size:30px; background-color:#E7C15F; color:black;}
+#S3{font-family: 'Montserrat', sans-serif;
+        font-size:20px; background-color:#9E87C0;}
+#S4{font-family: 'Montserrat', sans-serif;
+            font-size:30px; color:#33C1B1	;}
+#S5{font-family: 'Montserrat', sans-serif;
+                font-size:20px; color:#33C1B1	;}
+
+#S6{font-family: 'Roboto', sans-serif;
+                    font-size:16px; color:#33C1B1;}
+#S7 {font-family: 'Roboto', sans-serif;
+                        font-size:16px; columns: black;}
+   
+                        
+main{ 
+    margin:auto; display:block; margin-bottom:20px;}
+/*table rules here*/
+table {width:100%;}
+
+table, th, td{
+border: 1px solid black;}
+footer{
+    padding:2rem;
+    text-align: center;
+    height:80px;
+    background-color: #9E87C0;
+}
+
+.clearfix:after{
+ content: "";
+ display: table;
+ clear: both;
+}

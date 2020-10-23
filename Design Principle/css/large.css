@@ -1,0 +1,12 @@
+@media only screen and (min-width:1028px){
+    div{width:80%;}
+    body main{display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding:3em;
+   margin-left:45px;}
+  
+}
+header{text-align:center;}
+
+
+/*end of media query/*
