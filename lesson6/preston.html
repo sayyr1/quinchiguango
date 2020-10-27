@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="shortcut icon" href="/quinchiguango/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
   <meta charset="utf-8">
 <title>The Weather Site</title>
 <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
@@ -51,14 +51,12 @@ Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</d
 <h1 id="preston-header">Preston Idaho</h1>
 </section>
 <div class="coverfloat">
-  <figure>
-<img class="cover" src="images/image1100.jpg" alt="cover" sizes="50vw"
-                   srcset="images/image200.jpg 200w,
-                   images/image500.jpg 500w,
-                   images/image800.jpg 800w,
-                   images/image1100.jpg 1100w,
-                   ">  
-</figure>
+  <picture>
+   <source media="(max-width: 200px)" srcset="images/prestonSmall.jpg">      
+   <source media="(max-width: 500px)" srcset="images/prestonMedium.jpg">  
+   <source media="(max-width: 800px)" srcset="images/prestonLarge.jpg">  
+  <img src="images/preston1100.jpg" alt="preston" class="cover">
+  </picture>
 <section class="float">
  <div class="h2"> <h2>Weather Summary</h2> </div>
  <p>Currently: <span id="temp">45</span></p>
