@@ -1,8 +1,0 @@
-/*MAIN RULES HERE*/
-h1{text-align: center;}
-body picture{display:grid; 
-                 grid-template-columns:1fr; 
-                 justify-items: center;
-              padding:20px;
-               }
-     
