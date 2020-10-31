@@ -1,0 +1,74 @@
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    /*header ruler here*/
+    .header {display: flex;
+        align-items: center;
+        justify-content: center;}
+        .cover{ position: relative; width: 100%;
+            height: 100%;}
+ 
+    #preston-header{font-size: 45px;}
+    #headerWrapped {font-size:60px;}
+    nav button {display: none;}
+    nav ul.hide a {display: block}
+    nav ul { display: flex;}
+    nav ul li {
+        flex: 1 1 100%;}
+        nav ul li a { border: none;
+            border-right: 1px solid rgba(0,0,0,0.3);
+            padding: .8rem 10rem;
+            font-size: 16px;}
+
+ .header h1{font-size:40px;}
+    /*Main rules here*/
+ section.forecast {
+        margin-top:20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width:35rem;}
+       section.forecast img{
+    width:100px;}
+.article img{float:right;
+        display:block;
+        box-shadow: none;
+        overflow:auto;
+        }
+img#experience{padding:20px;}
+.information{height:18rem;}
+section.forecast div{text-align:center;
+border: 1px solid #aaa;}     
+section.forecast div h5 { background-color: #eee;
+margin:0 auto;
+padding: 1rem 0;} 
+.forecast{margin: 0 auto;}
+.forecast div p{margin-top:-5px;}
+.forecast-heading{display: block;}
+div.forecast-heading  {display: block; text-align:center;}
+ 
+img#map{display:block;
+    float:left;
+    width:25rem;}
+#where{
+      margin-left:27rem;
+      margin-top:-2em;}
+.galleryheading{text-align: left;
+                font-size: 25px;}
+
+.main{display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:'first two'
+                            'three four'
+                            'five six';
+        grid-gap:10px;}
+.one{grid-area: first;}   
+.two{grid-area: two;}   
+.three{grid-area: three;}   
+.four{grid-area: four;}   
+.five{grid-area: five;}   
+.six{grid-area: six;}   
+
+                                                                                                            :nth-child(1){grid-area: first;}
+}
+ /*end medium */
