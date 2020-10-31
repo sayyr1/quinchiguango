@@ -114,8 +114,8 @@ footer p {padding:1rem;
 
 main{display:grid;
     grid-template-columns: 1fr;}
-main picture  p{text-align: center;}
-main picture {max-width: 100%;
+main div  p{text-align: center;}
+main div {max-width: 100%;
    border-radius: 1px;
    
    margin: 0 auto;
@@ -123,7 +123,7 @@ main picture {max-width: 100%;
    margin-bottom: 20px;
      border:solid 0.5px
   }
-  main picture{padding:20px;  ;
+  main div{padding:20px;  ;
   }
 main img{max-width: 100%;}
 

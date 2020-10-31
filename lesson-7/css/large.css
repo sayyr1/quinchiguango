@@ -30,7 +30,7 @@
                  float:left;
                 width:30rem;}
 img{max-width: 100%;}
-picture:hover{box-shadow: 0 5px 20px 5px rgba(0,0,0,0.5);}
+div:hover{box-shadow: 0 5px 20px 5px rgba(0,0,0,0.5);}
 .gallery .main{grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: auto;
      grid-template-areas: 'first two three'
