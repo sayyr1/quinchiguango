@@ -40,8 +40,8 @@ picture:hover{box-shadow: 0 5px 20px 5px rgba(0,0,0,0.5);}
 .one{grid-area:first;}
 .two{grid-area:two;}
 .three{grid-area:three;}
-.fourgrid-area:four;}
-.fivegrid-area:five;}
+.four{grid-area:four;}
+.five{grid-area:five;}
 .six{grid-area:six;}
 
         }

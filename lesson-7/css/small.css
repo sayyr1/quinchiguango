@@ -114,9 +114,9 @@ footer p {padding:1rem;
 
 main{display:grid;
     grid-template-columns: 1fr;}
-main picture  figcaption{text-align: center;}
+main picture  p{text-align: center;}
 main picture {max-width: 100%;
-   border-radius: 1px  #000;
+   border-radius: 1px;
    
    margin: 0 auto;
    padding:20px;
