@@ -34,7 +34,8 @@ img{max-width: 100%;}
 .gallery .main{grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: auto;
      grid-template-areas: 'first two three'
-                          'four five six';
+                          'four five six'
+                          'seven eight nine';
     grid-gap:15px;
 }
 .one{grid-area:first;}
@@ -43,5 +44,9 @@ img{max-width: 100%;}
 .four{grid-area:four;}
 .five{grid-area:five;}
 .six{grid-area:six;}
+.seven{grid-area:seven;}
+.eight{grid-area:eight;}
+.nine{grid-area:nine;}
+
 
         }

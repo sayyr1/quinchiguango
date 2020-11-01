@@ -57,17 +57,23 @@ img#map{display:block;
 
 .main{display:grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:'first two'
                             'three four'
-                            'five six';
+                            'five six'
+                            'seven eight'
+                            'nine nine';
         grid-gap:10px;}
+.main div {margin-bottom: -30px;}
 .one{grid-area: first;}   
 .two{grid-area: two;}   
 .three{grid-area: three;}   
 .four{grid-area: four;}   
 .five{grid-area: five;}   
 .six{grid-area: six;}   
+.seven{grid-area: seven;} 
+.eight{grid-area: eight;} 
+.nine{grid-area: nine;}   
 
                                                                                                             :nth-child(1){grid-area: first;}
 }
