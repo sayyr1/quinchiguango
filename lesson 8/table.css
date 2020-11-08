@@ -13,4 +13,8 @@ tfoot{background-color:  #7fb9c2;
       text-align: center;}
 tbody tr:nth-child(5) td:nth-child(3){background-color: #628ca6;
                                       color:white;}
-table{box-shadow:4px 4px 6px 0  #628ca6;}
+table{box-shadow:4px 4px 6px 0  #628ca6;
+    }
+body{display: block;
+     margin-left:800px;
+}

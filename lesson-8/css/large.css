@@ -1,0 +1,52 @@
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+  
+        /*header rules here*/
+        .preston-header{ display:block; margin-left:-39rem;}
+        
+        picture{ grid-column: 2/3;}
+        header, nav, main, footer, .coverfloat, .galleryheading {display: block; max-width: 1024px;
+                margin: 0 auto;} 
+                nav button {display: none;}
+                nav ul.hide a {display: block}
+                nav ul { display: flex;}
+                nav ul li {
+                    flex: 1 1 100%;}
+         
+            #preston-header{margin-left:13.2em;}
+             .forecast{ width:1024px;
+              margin:0 auto;}   
+                nav ul li a { border: none;
+                              border-right: 1px solid rgba(0,0,0,0.3);
+                              padding: 10rem;}
+                /*main rules here*/
+               
+        
+         #where{ display:block;
+                 margin-left:30rem;
+                 margin-top:-25px;}
+         img#map{display:block;
+                 float:left;
+                width:30rem;}
+img{max-width: 100%;}
+.main div:hover{box-shadow: 0 5px 20px 5px rgba(0,0,0,0.5);}
+.gallery .main{grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas: 'first two three'
+                          'four five six'
+                          'seven eight nine';
+    grid-gap:15px;
+}
+.one{grid-area:first;}
+.two{grid-area:two;}
+.three{grid-area:three;}
+.four{grid-area:four;}
+.five{grid-area:five;}
+.six{grid-area:six;}
+.seven{grid-area:seven;}
+.eight{grid-area:eight;}
+.nine{grid-area:nine;}
+
+
+        }
