@@ -6,7 +6,7 @@
 .preston-header{ display:block; margin-left:-39rem;}
 
 picture{ grid-column: 2/3;}
-header, nav, main, footer, .coverfloat {display: block; max-width: 1024px;
+header, nav, main, footer, .coverfloat, form {display: block; max-width: 1024px;
         margin: 0 auto;} 
         nav button {display: none;}
         nav ul.hide a {display: block}
