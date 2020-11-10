@@ -86,8 +86,7 @@ form label.main, form .div {
     color: #9c2c13;
     font-size: .8rem;
 }
-.div{border-radius:none;
-    border:none;
+.div{
     margin-bottom:2px;
     margin-left:-1px;}
 
