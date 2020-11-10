@@ -9,10 +9,10 @@
 
 
   <!-- STYLE SHEETS -->
-  <link href="Storm-css/small-1.css" rel="stylesheet">
-  <link href="Storm-css/medium-1.css" rel="stylesheet">
-  <link href="Storm-css/large-1.css" rel="stylesheet">
-  <link href="Storm-css/normalize-1.css" rel="stylesheet">
+  <link href="css-storm/large.css" rel="stylesheet">
+  <link href="css-storm/medium.css" rel="stylesheet">
+  <link href="css-storm/small.css" rel="stylesheet">
+  <link href="css-storm/normalize.css" rel="stylesheet">
 
   <script src="js-preston/main.js" defer></script>
 
@@ -44,54 +44,59 @@
       <button onclick="toggleMenu()">&#9776; </button>
       <ul id="primaryNav" class="">
         <li><a href="#">Home</a></li>
-        <li><a href="preston.html">Preston</a></li>
+        <li class="active"><a href="preston.html">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
-        <li  class="active"><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
       </ul>
     </nav>
   </div>
- <main class="stormain">
-   <form method="get" action="thanks.html">
-    <fieldset>
-      <legend>Storm Center Information</legend>
-      <label class="main">Full Name <input type="text" name="fname" required></label>
-      <label class="main">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-      <label class="main">Phone Number <input type="tel" name="phone" placeholder="123333345" required></label>
-      <label class="main">Zip Code <input type="number" name="zip" required></label>
-      <label class="main">Storm Date<input type="date" name="sdate"></label>
-      <label class="main">Storm Type<input type="list" name="stype" list="lists"> </label>
-                       <datalist id="lists">
-                         <option>Flash Food</option>
-                         <option>Hail</option>
-                         <option>Hurricane</option>
-                         <option>Thunderstorm</option>
-                         <option>Tornado</option>
-                        </datalist>
-      <label class="main">Storm Severity<input type="range" name="severity" min="1" max="10"> </label>
-      <label class="main">Storm Region <select name="region" id="select">
-                           <option value="Preston">Preston</option>
-                           <option value="Soda Spring">Soda Springs</option>
-                           <option value="Fish Haven">Fish Haven</option>
+  <main class="stormain">
+    <form method="get" action="thanks.html">
+     <fieldset>
+       <legend>Storm Center Information</legend>
+       <label class="main">Full Name <input type="text" name="fname" required></label>
+       <label class="main">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+       <label class="main">Phone Number <input type="tel" name="phone" placeholder="123333345" required></label>
+       <label class="main">Zip Code <input type="number" name="zip" required></label>
+       <label class="main">Storm Date<input type="date" name="sdate"></label>
+       <label class="main">Storm Type<input type="list" name="stype" list="lists"> </label>
+                        <datalist id="lists">
+                          <option>Flash Food</option>
+                          <option>Hail</option>
+                          <option>Hurricane</option>
+                          <option>Thunderstorm</option>
+                          <option>Tornado</option>
+                         </datalist>
+       <label class="main">Storm Severity<input type="range" name="severity" min="1" max="10"> </label>
+       <label class="main">Storm Region <select name="region" id="select">
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Spring">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+ 
+                         </select> </label>
+         <div class="div">Use in-danger Label</div>
+         <label class="radio"> <input type="radio" name="User in-danger Level" value="Yes">Yes</label>
+         <label class="radio"><input type="radio" name="User in-danger Level" value="Maybe">Maybe</label>
+         <label class="radio"><input type="radio" name="User in-danger Level" value="No">No</label>
+         <div class="div">Additional Information or Comments</div>
+         <label> 
+       <textarea name="comments" form="usrform" placeholder="Insert text here..."></textarea>
+        </label>
+     </fieldset>
+    <input class="submitBtn" type="submit" value="Completed">
+ 
+ 
+ 
+ 
+    </form>
+  </main>
+ 
 
-                        </select> </label>
-        <div class="div">Use in-danger Label</div>
-        <label class="radio"> <input type="radio" name="User in-danger Level" value="Yes">Yes</label>
-        <label class="radio"><input type="radio" name="User in-danger Level" value="Maybe">Maybe</label>
-        <label class="radio"><input type="radio" name="User in-danger Level" value="No">No</label>
-        <div class="div">Additional Information or Comments</div>
-        <label> 
-      <textarea name="comments" form="usrform" placeholder="Insert text here..."></textarea>
-       </label>
-    </fieldset>
-   <input class="submitBtn" type="submit" value="Completed">
 
 
 
-
-   </form>
- </main>
   <!--Footer Here-->
   <div id="footerWrapper">
     <footer class="clearfix">

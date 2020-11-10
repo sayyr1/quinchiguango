@@ -6,7 +6,7 @@
         .preston-header{ display:block; margin-left:-39rem;}
         
         picture{ grid-column: 2/3;}
-        header, nav, main, footer, .coverfloat, .galleryheading, form {display: block; max-width: 1024px;
+        header, nav, main, footer, .coverfloat, .galleryheading {display: block; max-width: 1024px;
                 margin: 0 auto;} 
                 nav button {display: none;}
                 nav ul.hide a {display: block}
@@ -48,6 +48,5 @@ img{max-width: 100%;}
 .eight{grid-area:eight;}
 .nine{grid-area:nine;}
 
-/*FORM*/
-}
-        
+
+        }

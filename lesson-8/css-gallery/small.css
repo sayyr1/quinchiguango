@@ -147,7 +147,50 @@ h1 {
     margin-left: 1rem;
 }
 
+.forecast {
+    display: none;
+}
 
+.forecast-heading {
+    display: none;
+}
+
+.preston-header {
+    text-align: center;
+}
+
+main div {
+    border: none;
+}
+
+.article,
+.information {
+    background-color: #e8faf8;
+    margin: auto 0;
+}
+
+.article {
+    margin-bottom: 30px;
+}
+
+.article {
+    margin-top: 7rem;
+}
+
+#experience {
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+#map {
+    display: none;
+}
+
+#ubication {
+    width: 20px;
+    height: 20px;
+}
 
 /* Footer rules here*/
 footer {
@@ -161,72 +204,46 @@ footer p {
     text-align: center;
 }
 
-
-/*FOMR*/
-.stormain{  
-    display: block;
-    max-width: 100%;; padding: 0 2%;
-    min-height: 20rem;}
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding:.5rem;
-  
-}
-form legend {
-    color: #445ba9;
-    margin: 0 1rem;
-    padding:0 .5rem;
+.information {
+    height: 15rem;
 }
 
-form label.main, form .div {
-    display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
-}
-.div{border-radius:none;
-    border:none;
-    margin-bottom:-25px;
-    margin-left:-20px;}
-
-
-form label.main input, form label.main select, textarea{
-    -webkit-appearence:none;
-    display:block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+#where {
+    margin-top: -3rem;
 }
 
-form label.radio{
-    display: block;
-    padding: .75rem 0;
-    color: #555;
+#footerWrapper {
+    background-color: #9E87C0;
 }
-form input.submitBtn {
-    border: none;
-    background-color: #9c2c13;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
 }
-form label.main input:required {
-    border-left: red solid 6px;
+
+main div p {
+    text-align: center;
 }
-form label.main input:required:valid {
-    border-left:green solid 6px;
+
+main div {
+    max-width: 100%;
+    border-radius: 1px;
+
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 0.5px
 }
-textarea{margin-top: 10px;}
+
+main div {
+    padding: 20px;
+    ;
+}
+
+main img {
+    max-width: 100%;
+}
+
 /* Clearfix*/
 .clearfix:after {
     content: "";

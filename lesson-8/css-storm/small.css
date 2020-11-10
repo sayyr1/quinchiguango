@@ -1,0 +1,145 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+/* Header Rules Here*/
+header { 
+    background-color: #33C1B1 ;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 1rem;
+    }
+div#message{background-color: yellow; margin-top: 0;
+            text-align:center;
+            font-size:1.1rem;
+            padding:1.1em;}
+div.showme{display:block;}
+div.hideme{display:none;}
+#headerWrapper { background-color: #9E87C0;}
+.headings { 
+ display: flex;
+ flex-direction: column;
+ margin-top: -2.5rem;
+ margin-left:-1rem;
+}
+.headings h1 { font-family: 'Monserrat', sans-serif;
+     font-size: 40px;}
+.headings div { font-family: 'Roboto', sans-serif; font-size: 25px; margin-top: -35px; margin-left: 20px;}
+.motto {  
+    margin-top:-1rem;
+}
+.coverfloat{position:relative;}
+ 
+
+    
+/*Button Rules*/
+nav button { 
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+/*Navigation Rules Here*/
+nav { background-color: #E7C15F;
+      font-family: Verdana, sans-serif;}
+nav ul {list-style-type: none;
+        padding: 0;
+        margin: 0;}
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li.active a { background-color:rgba(0,0,0,0.3); color: #fff; }
+nav ul li a:hover{ background-color: rgba(0,0,0,0.4);}
+nav ul.hide { display:none;}
+ /*Images rules here*/
+ 
+/*Main Rules Here*/
+/*FOMR*/
+.stormain{  
+    display: block;
+    max-width: 100%;; padding: 0 2%;
+    min-height: 20rem;}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding:.5rem;
+  
+}
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding:0 .5rem;
+}
+
+form label.main, form .div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+.div{border-radius:none;
+    border:none;
+    margin-bottom:-25px;
+    margin-left:-20px;}
+
+
+form label.main input, form label.main select, textarea{
+    -webkit-appearence:none;
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.radio{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.main input:required {
+    border-left: red solid 6px;
+}
+form label.main input:required:valid {
+    border-left:green solid 6px;
+}
+
+
+/* Footer rules here*/
+footer { max-width: 100%; margin-top: 1rem;}
+footer p {padding:1rem;
+          margin: auto 0;
+          text-align: center;}
+          
+.information{height:15rem;}
+#where{margin-top:-3rem;}
+
+#footerWrapper { background-color: #9E87C0;}
+/* Clearfix*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;}
