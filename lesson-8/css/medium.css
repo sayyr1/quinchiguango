@@ -75,6 +75,8 @@ img#map{display:block;
 .eight{grid-area: eight;} 
 .nine{grid-area: nine;}   
 
+
+
                                                                                                             :nth-child(1){grid-area: first;}
 }
  /*end medium */

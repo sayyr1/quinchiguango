@@ -52,11 +52,11 @@
       </ul>
     </nav>
   </div>
- <main>
+ <main class="stormain">
    <form method="get" action="thanks.html">
     <fieldset>
       <legend>Storm Center Information</legend>
-      <label>Full Name <input type="text" name="fname" required></label>
+      <label class="main">Full Name <input type="text" name="fname" required></label>
       <label class="main">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
       <label class="main">Phone Number <input type="tel" name="phone" placeholder="123333345" required></label>
       <label class="main">Zip Code <input type="number" name="zip" required></label>
@@ -75,15 +75,15 @@
                            <option value="Soda Spring">Soda Springs</option>
                            <option value="Fish Haven">Fish Haven</option>
 
-                          </select> </label>
-     <div>User in-danger Level
-        <label class="radio"><input type="radio" name="User in-danger Level" value="Yes">Yes</label>
+                        </select> </label>
+        <div class="div">Use in-danger Label</div>
+        <label class="radio"> <input type="radio" name="User in-danger Level" value="Yes">Yes</label>
         <label class="radio"><input type="radio" name="User in-danger Level" value="Maybe">Maybe</label>
         <label class="radio"><input type="radio" name="User in-danger Level" value="No">No</label>
-    </div>
-    <div> Additional Information or Comments
-      <textarea name="comments" form="usrform">Enter text here...</textarea>
-    </div> 
+        <div class="div">Additional Information or Comments</div>
+        <label> 
+      <textarea name="comments" form="usrform" placeholder="Insert text here..."></textarea>
+       </label>
     </fieldset>
    <input class="submitBtn" type="submit" value="Completed">
 

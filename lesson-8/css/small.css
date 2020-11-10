@@ -245,11 +245,16 @@ main img {
 }
 
 /*FOMR*/
+.stormain{  
+    display: block;
+    max-width: 100%;; padding: 0 2%;
+    min-height: 20rem;}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding:.5rem;
+  
 }
 form legend {
     color: #445ba9;
@@ -257,14 +262,19 @@ form legend {
     padding:0 .5rem;
 }
 
-form label.main, form div {
+form label.main, form .div {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .8rem;
 }
+.div{border-radius:none;
+    border:none;
+    margin-bottom:-25px;
+    margin-left:-20px;}
 
-form label.main input, form label.main select {
+
+form label.main input, form label.main select, textarea{
     -webkit-appearence:none;
     display:block;
     font-size: 1rem;
@@ -277,7 +287,7 @@ form label.main input, form label.main select {
     background-color: rgba(0,0,0,0.1);
 }
 
-form label.sbs {
+form label.radio{
     display: block;
     padding: .75rem 0;
     color: #555;
@@ -298,7 +308,7 @@ form label.main input:required {
 form label.main input:required:valid {
     border-left:green solid 6px;
 }
-
+textarea{margin-top: 10px;}
 /* Clearfix*/
 .clearfix:after {
     content: "";
