@@ -88,7 +88,6 @@ sub{font-size: 7px; margin-top:-6rem;}
 
 /*text*/
 
-section:nth-child(odd) h2, section:nth-child(odd) p, section:nth-child(odd) sub {margin-left: px;}
 h2, p, sub{text-align: center;}
 
 /* Footer rules here*/

@@ -23,8 +23,6 @@
     /*Main rules here*/
     .preston{display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: px;
-        row-gap: none;
         border: none;
         background-color: white;}
 
