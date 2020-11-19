@@ -9,7 +9,7 @@
 .preston-header{ display:block; margin-left:-39rem;}
 
 picture{ grid-column: 2/3;}
-main, header, nav { max-width: 1024px;
+main, header, nav, .information, .article, .otavalo, .wireframe { max-width: 1024px;
         margin: 0 auto;} 
         nav button {display: none;}
         nav ul.hide a {display: block}
@@ -18,7 +18,7 @@ main, header, nav { max-width: 1024px;
             flex: 1 1 100%;}
  
  /*main rules here*/
-       
+ h1{text-align: center;}  
 
  #where{ display:block;
          margin-left:30rem;
