@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <meta charset="utf-8">
+  <title>The Weather Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+  <!-- STYLE SHEETS -->
+  <link href="css-preston/large.css" rel="stylesheet">
+  <link href="css-preston/medium.css" rel="stylesheet">
+  <link href="css-preston/small.css" rel="stylesheet">
+  <link href="css-preston/normalize.css" rel="stylesheet">
+
+  
+
+
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="message">
+    Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</div>
+  <!--HEADER HERE-->
+  <div id="headerWrapper">
+    <header class="header">
+      <picture>
+        <img src="images/logo.png" alt="logo">
+      </picture>
+      <section class="headings">
+        <h1>The Weather Site</h1>
+
+        <div class="motto">Always Reliable</div>
+      </section>
+    </header>
+  </div>
+  <!--Navigation Here-->
+  <div id="navWrapper">
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; </button>
+      <ul id="primaryNav" class="">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+  <section class="preston-header">
+    <h1 id="preston-header">Preston Idaho</h1>
+  </section>
+  <!--COVER-->
+  <div class="coverfloat">
+    <picture>
+      <source media="(max-width: 200px)" srcset="images/prestonSmall.jpg">
+      <source media="(max-width: 500px)" srcset="images/prestonMedium.jpg">
+      <source media="(max-width: 800px)" srcset="images/prestonLarge.jpg">
+      <img src="images/preston1100.jpg" alt="preston" class="cover">
+    </picture>
+
+    <!--Weather Summary-->
+    <section class="float">
+      <div class="h2">
+        <h2>Weather Summary</h2>
+      </div>
+      <p>Currently: <span id="temp"></span>°F</p>
+      <p>High: <span id="high"></span>°F</p>
+      <p id="chill">Wind Chill: <span>30</span>°F</p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+      <p>Wind Speed: <span id="speed"></span>mph</p>
+    </section>
+  </div>
+
+ 
+  <div class="forecast-heading">
+    <h2>5 Day Forecast</h2>
+  </div>
+   <!--5 DAYS FORECAST-->
+  <section class="forecast">
+    <div>
+      <h5 id="dayofweek1"></h5>
+      <img id="img1"alt="cloudy">
+    <p> <span id="forecast1"></span> °F</p>
+    </div>
+    <div>
+      <h5 id="dayofweek2"></h5>
+      <img id="img2"alt="cloudy">
+      <p> <span id="forecast2"></span> °F</p>
+    </div>
+    <div>
+      <h5 id="dayofweek3"></h5>
+      <img id="img3"alt="cloudy">
+      <p> <span id="forecast3"></span> °F</p>
+    </div>
+    <div>
+      <h5 id="dayofweek4"></h5>
+      <img id="img4"alt="cloudy">
+      <p> <span id="forecast4"></span> °F</p>
+    </div>
+    <div>
+      <h5 id="dayofweek5"></h5>
+      <img id="img5"alt="cloudy">
+      <p> <span id="forecast5"></span> °F</p>
+    </div>
+
+  </section>
+  <main class="clearfix">
+    <div class="article">
+      <img id="experience" src="images/preston-park.jpg" alt="park">
+      <h2>Nice Moments</h2>
+      <p>by Sayri Quinchiguango</p>
+      <p>y someone
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eos cumque fuga nemo nulla architecto nostrum
+        ratione possimus eum. Voluptates quod quasi sint officia consequatur ullam modi earum nulla, excepturi
+        perferendis culpa nihil deserunt eos at esse, adipisci saepe ipsa voluptatem aperiam iure quaerat quas mollitia
+        laborum. Voluptatem, magni non. Aliquid cupiditate nemo iure, doloremque molestias perspiciatis et tenetur
+        necessitatibus ipsa animi reprehenderit quae quibusdam nesciunt iste possimus distinctio ratione mollitia
+        impedit rerum inventore dignissimos amet delectus maiores. Cupiditate quisquam repudiandae, fugit natus
+        asperiores eaque voluptatem quod aut cum unde, rerum reprehenderit laborum! Accusamus dolores nobis itaque
+        expedita. Cumque minus repellendus id consectetur quaerat similique nam iste laboriosam dicta mollitia, magnam
+        porro assumenda error nostrum molestiae laudantium expedita esse adipisci minima distinctio accusantium,
+        deleniti amet? Esse blanditiis impedit velit architecto, sapiente officia, eos voluptatem quisquam est totam
+        dolores quas voluptas odit quam molestias sint! Repellat fugit alias, cumque explicabo ipsam nulla nostrum quas
+        soluta quos quisquam autem vitae provident ipsa assumenda labore minima iusto accusamus porro aliquam laboriosam
+        debitis perferendis error itaque accusantium? Facilis eaque et natus? Eaque, esse consectetur quasi dolorem
+        omnis dolores mollitia nobis veritatis a hic ipsum alias quae! Facere odit natus ducimus quasi, odio nesciunt
+        nisi!</p>
+    </div>
+    <div class="information">
+      <img id="map" src="images/map.png" alt="map">
+      <div id="where">
+        <h2>The Weather Site</h2>
+        <img id="ubication" src="images/ubication.png" alt="ubication">
+        <span>30 N 1st E </span><br>
+        <span>Preston,</span>
+        <span>☏ (593) 6666 666</span><br>
+        <span>✉ otavaloweather@gmail.com</span>
+      </div>
+    </div>
+
+  </main>
+  <!--Footer Here-->
+  <div id="footerWrapper">
+    <footer class="clearfix">
+      <script src="js-preston/main.js"></script>
+      <p>&copy; 2020 &bull; Sayri Quinchiguango &bull; Atuntaqui-Ecuador <span id="dates"></span></p>
+
+
+    </footer>
+    <script src="js-preston/forecastApi.js" defer></script>
+
+    <script src="js-preston/weatherapi.js" defer></script>
+
+  </div>
+</body>
+
+</html>
