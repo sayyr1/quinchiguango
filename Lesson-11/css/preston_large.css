@@ -1,0 +1,35 @@
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+  
+/*header rules here*/
+.preston-header{ display:block; margin-left:-39rem;}
+
+picture{ grid-column: 2/3;}
+header, nav, main, footer, .coverfloat {display: block; max-width: 1024px;
+        margin: 0 auto;} 
+        nav button {display: none;}
+        nav ul.hide a {display: block}
+        nav ul { display: flex;}
+        nav ul li {
+            flex: 1 1 100%;}
+ 
+    #preston-header{margin-left:13.2em;}
+     section.forecast{ max-width:1000px;
+      margin:0 auto;}   
+        nav ul li a { border: none;
+                      border-right: 1px solid rgba(0,0,0,0.3);
+                      padding: 10rem;}
+        /*main rules here*/
+       /*FORECAST RULES*/
+
+section.forecast{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  }
+section.forecast div{margin:1px 0;}
+
+ #where{ display:block;
+         margin-left:30rem;
+         margin-top:-25px;}
+ img#map{display:block;
+         float:left;
+        width:30rem;}
+}

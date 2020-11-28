@@ -1,0 +1,49 @@
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    /*header ruler here*/
+    .header {display: flex;
+        align-items: center;
+        justify-content: center;}
+        .cover{ position: relative; width: 100%;
+            height: 100%;}
+ 
+    /*NAVIGATION RULES HERE*/
+    nav button {display: none;}
+    nav ul.hide a {display: block}
+    nav ul { display: flex;}
+    nav ul li {
+        flex: 1 1 100%;}
+        nav ul li a { border: none;
+            border-right: 1px solid rgba(0,0,0,0.3);
+            padding: .8rem 10rem;
+            font-size: 16px;}
+
+ .header h1{font-size:40px;}
+    /*Main rules here*/
+    .preston{display: grid;
+        grid-template-columns: 310px 310px 310px;
+        border: none;
+        background-color: white;
+        margin-left: 40px;}
+
+       .preston section:nth-child(1){display: flex; flex-direction: column; padding: -50px; padding: 0; margin-right:0; border:none;}
+       .preston section:nth-child(1) img{margin-top:1.5rem; width: 300px;}
+       .preston section:nth-child(1) sub{margin-top:4.5rem; border;}
+
+       .preston section:nth-child(2){display: flex; flex-direction: column; padding: -50px; padding: 0; margin-right:0; border:none;}
+       .preston section:nth-child(2) img{margin-top:1.5rem; width:300px; margin-left: -1px;}
+       .preston section:nth-child(2) sub{margin-top:4.5rem;border;}
+
+       .preston section:nth-child(3){display: flex; flex-direction: column; padding: -50px; padding: 0; margin-right:0; border:none;}
+       .preston section:nth-child(3) img{margin-top:1.5rem; width: 300px;}
+       .preston section:nth-child(3) sub{margin-top:4.5rem;border;}
+       /*RULES FOR THE TEXT*/
+       .preston section h2{font-size: 25px;}   
+       .preston section p{font-size: 15px;}        
+       .preston section sub{font-size: 12px; color: rgba(0,0,0,0.8);}        
+
+
+
+}
+ /*end medium */

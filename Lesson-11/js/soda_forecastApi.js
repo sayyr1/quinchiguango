@@ -1,18 +1,10 @@
-// obtaining the date
-//const d= new Date();
-//const todayDayNumber =
-//d.getDay();
-//let forecastDayNumber= todayDayNumber;
-//console.log(forecastDayNumber);
-
-
-const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=876c077c999b25363ac86cddaf172d7d";
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=876c077c999b25363ac86cddaf172d7d";
 fetch(apiURL)
 .then(response => response.json())
 .then(jsObject => {
     console.log(jsObject);
     const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-    console.log(forecast);
+    //console.log(forecast);
 
 
 

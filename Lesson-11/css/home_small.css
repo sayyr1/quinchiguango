@@ -1,0 +1,113 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+/* Header Rules Here*/
+header { 
+    background-color: #33C1B1 ;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 1rem;
+    }
+div#message{background-color: yellow; margin-top: 0;
+            text-align:center;
+            font-size:1.1rem;
+            padding:1.1em;}
+div.showme{display:block;}
+div.hideme{display:none;}
+#headerWrapper { background-color: #9E87C0;}
+.headings { 
+ display: flex;
+ flex-direction: column;
+ margin-top: -2.5rem;
+ margin-left:-1rem;
+}
+.headings h1 { font-family: 'Monserrat', sans-serif;
+     font-size: 40px;}
+.headings div { font-family: 'Roboto', sans-serif; font-size: 25px; margin-top: -35px; margin-left: 20px;}
+.motto {  
+    margin-top:-1rem;
+}
+.coverfloat{position:relative;}
+ 
+
+
+/*Button Rules*/
+nav button { 
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+/*Navigation Rules Here*/
+nav { background-color: #E7C15F;
+      font-family: Verdana, sans-serif;}
+nav ul {list-style-type: none;
+        padding: 0;
+        margin: 0;}
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li.active a { background-color:rgba(0,0,0,0.3); color: #fff; }
+nav ul li a:hover{ background-color: rgba(0,0,0,0.4);}
+nav ul.hide { display:none;}
+ /*Images rules here*/
+ .heroimage{max-width: 100%; margin:0 auto;}
+/*Main Rules Here*/
+.preston section{display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 1fr 1fr;
+    border:solid 1px black;
+    margin:10px;
+    padding: 10px;
+    background-color: #E7C15F;
+    
+   }
+section:nth-child(odd) img{grid-column: 2;}
+section:nth-child(odd) p{grid-column: 1;} 
+section:nth-child(odd) sub{grid-column: 1;} 
+section:nth-child(2) sub{grid-column: 2;} 
+section:nth-child(even) img{grid-column: 1;}
+section:nth-child(even) p{grid-column: 2; } 
+section:nth-child(even) h2{grid-column: 2;}
+section:nth-child(1) img{margin-top: -7.5rem;  width: 150px; }
+section:nth-child(2) img{margin-top: -7.5rem; width:150px; margin-left: 1.5rem;}
+section:nth-child(3) img{margin-top: -7.5rem; width: 150px;}
+img{padding: 0px 0;}
+p {font-size: 12px; margin-top: -5rem;}
+sub{font-size: 7px; margin-top:-6rem;}
+
+
+/*text*/
+
+h2, p, sub{text-align: center;}
+
+/*Article*/
+.article{border: solid 1px black; padding:5px; margin-top: 5px;}
+em{font-size: 15px;}
+small{font-size:10px;}
+i{text-align: center;}
+/*information*/
+.wireframe {font-size: 20px; text-align: center;}         
+.information{border: solid 1px black; margin-top:15px; padding: 5px;}
+/* Footer rules here*/
+footer { max-width: 100%; margin-top: 1rem;}
+footer p {padding:1rem;
+          margin: auto 0;
+          text-align: center;}
+
+
+#footerWrapper { background-color: #9E87C0;}
+/* Clearfix*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;}

@@ -7,16 +7,11 @@
   <title>The Weather Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
   <!-- STYLE SHEETS -->
-  <link href="css/preston_large.css" rel="stylesheet">
-  <link href="css/preston_medium.css" rel="stylesheet">
-  <link href="css/preston_small.css" rel="stylesheet">
+  <link href="css/fish_large.css" rel="stylesheet">
+  <link href="css/fish_medium.css" rel="stylesheet">
+  <link href="css/fish_small.css" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-
-<!--JAVASCRIPT LINKS-->
-<script src="js/main.js" defer></script>
-
-
-
+  <!--JAVA SCRIPT LINKS-->
   <!--Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
@@ -44,24 +39,24 @@
       <button onclick="toggleMenu()">&#9776; </button>
       <ul id="primaryNav" class="">
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="preston.html">Preston</a></li>
         <li><a href="soda-spring.html">Soda Springs</a></li>
-        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li  class="active"><a href="fish-haven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
       </ul>
     </nav>
   </div>
   <section class="preston-header">
-    <h1 id="preston-header">Preston Idaho</h1>
+    <h1 id="preston-header">Fish Haven</h1>
   </section>
   <!--COVER-->
   <div class="coverfloat">
     <picture>
-      <source media="(max-width: 200px)" srcset="images/prestonSmall.jpg">
-      <source media="(max-width: 500px)" srcset="images/prestonMedium.jpg">
-      <source media="(max-width: 800px)" srcset="images/prestonLarge.jpg">
-      <img src="images/preston1100.jpg" alt="preston" class="cover">
+      <source media="(max-width: 200px)" srcset="images/fishSmall.jpg">
+      <source media="(max-width: 500px)" srcset="images/fishMedium.jpg">
+      <source media="(max-width: 800px)" srcset="images/fishLarge.jpg">
+      <img src="images/fish-haven1100.jpg" alt="preston" class="cover">
     </picture>
 
     <!--Weather Summary-->
@@ -77,35 +72,35 @@
     </section>
   </div>
 
-
+ 
   <div class="forecast-heading">
     <h2>5 Day Forecast</h2>
   </div>
-  <!--5 DAYS FORECAST-->
+   <!--5 DAYS FORECAST-->
   <section class="forecast">
     <div>
       <h5 id="dayofweek1"></h5>
-      <img id="img1" alt="cloudy">
-      <p> <span id="forecast1"></span> °F</p>
+      <img id="img1"alt="cloudy">
+    <p> <span id="forecast1"></span> °F</p>
     </div>
     <div>
       <h5 id="dayofweek2"></h5>
-      <img id="img2" alt="cloudy">
+      <img id="img2"alt="cloudy">
       <p> <span id="forecast2"></span> °F</p>
     </div>
     <div>
       <h5 id="dayofweek3"></h5>
-      <img id="img3" alt="cloudy">
+      <img id="img3"alt="cloudy">
       <p> <span id="forecast3"></span> °F</p>
     </div>
     <div>
       <h5 id="dayofweek4"></h5>
-      <img id="img4" alt="cloudy">
+      <img id="img4"alt="cloudy">
       <p> <span id="forecast4"></span> °F</p>
     </div>
     <div>
       <h5 id="dayofweek5"></h5>
-      <img id="img5" alt="cloudy">
+      <img id="img5"alt="cloudy">
       <p> <span id="forecast5"></span> °F</p>
     </div>
 
@@ -148,14 +143,14 @@
   <!--Footer Here-->
   <div id="footerWrapper">
     <footer class="clearfix">
-      <script src="js-preston/main.js"></script>
       <p>&copy; 2020 &bull; Sayri Quinchiguango &bull; Atuntaqui-Ecuador <span id="dates"></span></p>
-   
-  <!--JS API-->
-      <script src="js/preston_forecastApi.js" defer></script>
-      <script src="js/preston_weatherApi.js" defer></script>
+
+  <!--API lINKS-->
+    <script src="js/main.js"></script>
+    <script src="js/fish_forecastApi.js" defer></script>
+     <script src="js/fish_weatherapi.js" defer></script>
     </footer>
-</div>
+  </div>
 </body>
 
 </html>

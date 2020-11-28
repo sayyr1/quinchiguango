@@ -1,0 +1,27 @@
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    /*header ruler here*/
+    .header {display: flex;
+        align-items: center;
+        justify-content: center;}
+        .cover{ position: relative; width: 100%;
+            height: 100%;}
+ 
+    #preston-header{font-size: 45px;}
+    #headerWrapped {font-size:60px;}
+    nav button {display: none;}
+    nav ul.hide a {display: block}
+    nav ul { display: flex;}
+    nav ul li {
+        flex: 1 1 100%;}
+        nav ul li a { border: none;
+            border-right: 1px solid rgba(0,0,0,0.3);
+            padding: .8rem 10rem;
+            font-size: 16px;}
+
+ .header h1{font-size:40px;}
+    /*Main rules here*/
+ 
+}
+ /*end medium */

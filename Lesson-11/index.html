@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <title>The Weather Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+
+
+  <!-- STYLE SHEETS -->
+  <link href="css/home_large.css" rel="stylesheet">
+  <link href="css/home_medium.css" rel="stylesheet">
+  <link href="css/home_small.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <!--SCRIPT-LINKS-->
+  <script src="js/main.js" defer></script>
+  <script src="js/cityinfo.js"></script>
+
+
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="message">
+    Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</div>
+  <!--HEADER HERE-->
+  <div id="headerWrapper">
+    <header class="header">
+      <picture>
+        <img src="images/logo.png" alt="logo">
+      </picture>
+      <section class="headings">
+        <h1>The Weather Site</h1>
+
+        <div class="motto">Always Reliable</div>
+      </section>
+    </header>
+  </div>
+  <!--Navigation Here-->
+   <!--Navigation Here-->
+<div id="navWrapper">
+  <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; </button>
+  <ul id="primaryNav" class="">
+    <li  class="active"><a href="index.html">Home</a></li>
+    <li><a href="preston.html">Preston</a></li>
+    <li><a href="soda-spring.html">Soda Springs</a></li>
+    <li><a href="fish-haven.html">Fish Haven</a></li>
+    <li><a href="stormcenter.html">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+  </nav>
+  </div>
+  <div class="otavalo">
+    <picture class="heroimage">
+      <source media="(max-width: 200px)" srcset="images/otavaloSmall.jpg">
+      <source media="(max-width: 500px)" srcset="images/otavaloMedium.jpg">
+      <source media="(max-width: 800px)" srcset="images/otavaloLarge.jpg">
+      <img src="images/otavalo1100.jpg" alt="preston" class="cover">
+    </picture>
+  </div>
+
+    <main>
+        <div class="preston"></div>
+    </main>
+  <div class="article">
+    <h3 class="h2-article">
+      Article
+    </h4>
+    <h4>Enjojing the Nature in Otavalo</h4>
+    <em>by Someone</em><br>
+    <small>November 2020</small><br>
+    <i>One of the best Quito day trips on offer, Otavalo is an indigenous stronghold, famous for the Otavalo market, an everyday occurrence that’s said to be the largest in South America. Tourists flock in just to see this market in action. The city is just a couple of hours in a bus North of the capital, which is what makes Otavalo market such a popular Quito day trip (book here!), but there’s a lot more to see around the city than inside it, so at the very least a 2-night stay in Otavalo would be recommended if you have the time. The area is also home to one of the best waterfalls in Northern Ecuador – Peguche waterfall.</i>
+  </div>
+  <div class="information">
+    <h4>Information</h4>
+    <span>Otavalo-Ecuador </span><br>
+    <span>Otavalo,</span>
+    <span>☏ (593) 6666 666</span><br>
+    <span>✉ otavaloweather@gmail.com</span>
+  </div>
+  <div class="wireframe">
+    <a href="home-wireframe.html">Home Wireframe</a>
+    </div>
+    
+  <!--Footer Here-->
+  <div id="footerWrapper">
+    <footer class="clearfix">
+      <p>&copy; 2020 &bull; Sayri Quinchiguango &bull; Atuntaqui-Ecuador <span id="dates"></span></p>
+    </footer>
+  </div>
+</body>
+
+</html>
