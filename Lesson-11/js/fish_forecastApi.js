@@ -3,8 +3,8 @@ fetch(apiURL)
 .then(response => response.json())
 .then(jsObject => {
     console.log(jsObject);
-    //const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-    console.log(forecast);
+    const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+   //console.log(forecast);
 
 
 

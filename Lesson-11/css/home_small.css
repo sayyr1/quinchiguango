@@ -16,7 +16,7 @@ div#message{background-color: yellow; margin-top: 0;
             font-size:1.1rem;
             padding:1.1em;}
 div.showme{display:block;}
-div.hideme{display:none;}
+div.hide{display:none;}
 #headerWrapper { background-color: #9E87C0;}
 .headings { 
  display: flex;
@@ -60,7 +60,7 @@ nav ul li.active a { background-color:rgba(0,0,0,0.3); color: #fff; }
 nav ul li a:hover{ background-color: rgba(0,0,0,0.4);}
 nav ul.hide { display:none;}
  /*Images rules here*/
- .heroimage{max-width: 100%; margin:0 auto;}
+ .cover{max-width:100%; margin:0 auto; margin-top:15px;}
 /*Main Rules Here*/
 .preston section{display: grid;
     grid-template-columns: 1fr 1fr;
@@ -102,7 +102,8 @@ i{text-align: center;}
 footer { max-width: 100%; margin-top: 1rem;}
 footer p {padding:1rem;
           margin: auto 0;
-          text-align: center;}
+          text-align: center;
+        font-size: 15px;}
 
 
 #footerWrapper { background-color: #9E87C0;}

@@ -9,3 +9,21 @@ document.getElementById('high').innerHTML=weatherSummary.main.temp_max;
 document.getElementById('humidity').innerHTML=weatherSummary.main.humidity;
 document.getElementById('speed').innerHTML=weatherSummary.wind.speed;
 })
+
+const events = "https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(events)
+.then (function(response){
+return response.json();
+})
+.then(function (jsonObject){
+const towns = jsonObject['towns'];
+let selected = towns.filter(x =>(x.name=='Fish Haven'));
+console.log(selected); 
+selected.forEach(town =>{
+document.getElementById('title_events').innerHTML='Upcoming Events:';
+document.getElementById('event1').innerHTML=town.events[0];
+document.getElementById('event2').innerHTML=town.events[1];
+document.getElementById('event3').innerHTML=town.events[2];
+
+})
+})

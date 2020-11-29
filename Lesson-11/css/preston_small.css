@@ -16,7 +16,7 @@ div#message{background-color: yellow; margin-top: 0;
             font-size:1.1rem;
             padding:1.1em;}
 div.showme{display:block;}
-div.hideme{display:none;}
+div.hide{display:none;}
 #headerWrapper { background-color: #9E87C0;}
 .headings { 
  display: flex;
@@ -123,6 +123,10 @@ main div{border:none;
 #map{display:none;}
 #ubication {width:20px;
             height:20px;}
+
+/* Event Rules*/
+section.events{display: block; margin-left:60px; text-align: center; width:fit-content; margin:0 auto; padding: 10px 50px ; margin-top: 15px;}
+section.events:hover{box-shadow: 0 5px 20px 5px #9E87C0;}
 /* Footer rules here*/
 footer { max-width: 100%; margin-top: 1rem;}
 footer p {padding:1rem;
