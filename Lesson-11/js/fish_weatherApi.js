@@ -1,6 +1,6 @@
-const api = "//api.openweathermap.org/data/2.5/weather?id=5585000&units=imperial&APPID=876c077c999b25363ac86cddaf172d7d"; 
+const apis = "//api.openweathermap.org/data/2.5/weather?id=5585000&units=imperial&APPID=876c077c999b25363ac86cddaf172d7d"; 
 // Go fetch it and then wait for a response.
-fetch(api)
+fetch(apis)
 .then((response) => response.json())
 .then((weatherSummary) => {
 //console.log(weatherSummary);
