@@ -9,7 +9,7 @@ picture{ grid-column: 2/3;}
 header, nav, main, footer, .coverfloat {display: block; max-width: 1024px;
         margin: 0 auto;} 
         nav button {display: none;}
-        nav ul.hide a {display: block}
+        nav ul.hide{display: block}
         nav ul { display: flex;}
         nav ul li {
             flex: 1 1 100%;}

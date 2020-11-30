@@ -12,6 +12,7 @@
   <link href="css/fish_small.css" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <!--JAVA SCRIPT LINKS-->
+  <script src="js/main.js" defer></script>
   <!--Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
@@ -37,7 +38,7 @@
   <div id="navWrapper">
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776; </button>
-      <ul id="primaryNav" class="">
+      <ul id="primaryNav" class="hide">
         <li><a href="index.html">Home</a></li>
         <li><a href="preston.html">Preston</a></li>
         <li><a href="soda-spring.html">Soda Springs</a></li>
@@ -113,8 +114,8 @@
   </section>
   <main class="clearfix">
     <div class="article">
-      <img id="experience" src="images/preston-park.jpg" alt="park">
-      <h2>Nice Moments</h2>
+      <img id="experience" src="images/fish-park.jpg" alt="park">
+      <h2>Enjoying the Views.</h2>
       <p>by Sayri Quinchiguango</p>
       <p>y someone
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eos cumque fuga nemo nulla architecto nostrum
@@ -134,12 +135,12 @@
         nisi!</p>
     </div>
     <div class="information">
-      <img id="map" src="images/map.png" alt="map">
+      <img id="map" src="images/map_fish.png" alt="map">
       <div id="where">
         <h2>The Weather Site</h2>
         <img id="ubication" src="images/ubication.png" alt="ubication">
         <span>30 N 1st E </span><br>
-        <span>Preston,</span>
+        <span>Fish Haven, ID, 2020</span>
         <span>☏ (593) 6666 666</span><br>
         <span>✉ otavaloweather@gmail.com</span>
       </div>
@@ -152,7 +153,6 @@
       <p>&copy; 2020 &bull; Sayri Quinchiguango &bull; Atuntaqui-Ecuador <span id="dates"></span></p>
 
   <!--API lINKS-->
-    <script src="js/main.js"></script>
     <script src="js/fish_forecastApi.js" defer></script>
      <script src="js/fish_weatherapi.js" defer></script>
     </footer>

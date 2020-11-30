@@ -16,7 +16,7 @@ div#message{background-color: yellow; margin-top: 0;
             font-size:1.1rem;
             padding:1.1em;}
 div.showme{display:block;}
-div.hide{display:none;}
+div.hideme{display:none;}
 #headerWrapper { background-color: #9E87C0;}
 .headings { 
  display: flex;
@@ -58,7 +58,7 @@ nav ul li a{
 }
 nav ul li.active a { background-color:rgba(0,0,0,0.3); color: #fff; }
 nav ul li a:hover{ background-color: rgba(0,0,0,0.4);}
-nav ul.hide { display:none;}
+nav ul.hide {display:none;}
  /*Images rules here*/
  .cover{max-width:100%; margin:0 auto; margin-top:15px;}
 /*Main Rules Here*/

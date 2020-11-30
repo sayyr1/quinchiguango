@@ -11,6 +11,8 @@ header {
     justify-items: center;
     margin-bottom: 1rem;
     }
+.heading h1{text-align: center; font-size: 1.6rem;}
+/*Pop-up*/
 div#message{background-color: yellow; margin-top: 0;
             text-align:center;
             font-size:1.1rem;

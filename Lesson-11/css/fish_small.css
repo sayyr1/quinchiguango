@@ -16,7 +16,9 @@ div#message{background-color: yellow; margin-top: 0;
             font-size:1.1rem;
             padding:1.1em;}
 div.showme{display:block;}
-div.hide{display:none;}
+div.hideme{display:none;}
+/*nav*/
+nav ul.hide{display:none;}
 #headerWrapper { background-color: #9E87C0;}
 .headings { 
  display: flex;

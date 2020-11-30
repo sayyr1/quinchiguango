@@ -12,6 +12,9 @@ html {
 }
 
 /* Header Rules Here*/
+.galleryheading{
+    text-align: center;
+}
 header {
     background-color: #33C1B1;
     display: flex;
@@ -27,12 +30,14 @@ div#message {
     font-size: 1.1rem;
     padding: 1.1em;
 }
-
+div.showme{display:block;}
+div.hideme{display:none;}
+/*nav*/
 div.showme {
     display: block;
 }
 
-div.hide{
+nav ul.hide{
     display: none;
 }
 

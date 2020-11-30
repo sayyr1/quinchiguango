@@ -15,8 +15,10 @@ div#message{background-color: yellow; margin-top: 0;
             text-align:center;
             font-size:1.1rem;
             padding:1.1em;}
-body div.showme{display:block;}
-body div.hide a{display:none;}
+div.showme{display:block;}
+div.hideme{display:none;}
+/*nav*/
+nav ul.hide{display:none;}
 #headerWrapper { background-color: #9E87C0;}
 .headings { 
  display: flex;
