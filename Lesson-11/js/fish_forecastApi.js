@@ -24,8 +24,5 @@ document.getElementById(`img${day+1}`).src=icon_path;
 
 
     }
-
-
-
 });
 
