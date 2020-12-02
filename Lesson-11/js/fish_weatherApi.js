@@ -1,6 +1,6 @@
-const apis = "//api.openweathermap.org/data/2.5/weather?id=5585000&units=imperial&APPID=876c077c999b25363ac86cddaf172d7d"; 
+const api = "//api.openweathermap.org/data/2.5/weather?id=5585000&units=imperial&APPID=876c077c999b25363ac86cddaf172d7d";
 // Go fetch it and then wait for a response.
-fetch(apis)
+fetch(api)
 .then((response) => response.json())
 .then((weatherSummary) => {
 //console.log(weatherSummary);
@@ -17,7 +17,7 @@ return response.json();
 })
 .then(function (jsonObject){
 const towns = jsonObject['towns'];
-let selected = towns.filter(x =>(x.name=='Fish Haven'));
+let selected = towns.filter(x =>(x.name=='Soda Springs'));
 console.log(selected); 
 selected.forEach(town =>{
 document.getElementById('title_events').innerHTML='Upcoming Events:';
