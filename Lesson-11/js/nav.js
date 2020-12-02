@@ -1,16 +1,29 @@
-function toggleMenu() {
-    document.getElementById('primaryNav').classList.toggle('hide');
-}
+const api = "//api.openweathermap.org/data/2.5/weather?id=5585000&units=imperial&APPID=876c077c999b25363ac86cddaf172d7d";
+// Go fetch it and then wait for a response.
+fetch(api)
+.then((response) => response.json())
+.then((weatherSummary) => {
+//console.log(weatherSummary);
+document.getElementById('temp').innerHTML=weatherSummary.main.temp;
+document.getElementById('high').innerHTML=weatherSummary.main.temp_max;
+document.getElementById('humidity').innerHTML=weatherSummary.main.humidity;
+document.getElementById('speed').innerHTML=weatherSummary.wind.speed;
+})
 
-const today = new Date()
-  console.log(today);
-  
-  const dayNumber = today.getDay();
-  console.log(dayNumber);
-  
-  const element = document.getElementById("message");
-  if (dayNumber==6){element.classList.add('showme');}
-  else {element.classList.add('hideme');}
-  let lastMod= new Date(document.lastModified);
-document.getElementById('dates').textContent=lastMod;
+const events = "https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(events)
+.then (function(response){
+return response.json();
+})
+.then(function (jsonObject){
+const towns = jsonObject['towns'];
+let selected = towns.filter(x =>(x.name=='Soda Springs'));
+console.log(selected); 
+selected.forEach(town =>{
+document.getElementById('title_events').innerHTML='Upcoming Events:';
+document.getElementById('event1').innerHTML=town.events[0];
+document.getElementById('event2').innerHTML=town.events[1];
+document.getElementById('event3').innerHTML=town.events[2];
 
+})
+})
