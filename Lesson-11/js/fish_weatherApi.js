@@ -17,7 +17,7 @@ return response.json();
 })
 .then(function (jsonObject){
 const towns = jsonObject['towns'];
-let selected = towns.filter(x =>(x.name=='Soda Springs'));
+let selected = towns.filter(x =>(x.name=='Fish Haven'));
 console.log(selected); 
 selected.forEach(town =>{
 document.getElementById('title_events').innerHTML='Upcoming Events:';
