@@ -1,0 +1,75 @@
+@media only screen and (min-width:35rem){
+    /*HEADER RULES*/
+    div.logo-title{display: flex; margin:10px 5px 0 10px;}
+    header div.logo-title h1{margin-left: 10px;
+        font-size: 33px;
+    
+    }
+    header{display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+    /*NAVAGATION RULES*/
+   
+   div.navigation{margin-top: 20px;}
+   div.navigation nav button{display: none;}
+ 
+   div nav ul.hide{ display: flex; flex-direction: row;
+    width: fit-content;
+    margin-top: 5px;
+   }
+   div nav ul li a{
+    text-align: center; 
+    padding: 5px 10px;
+    font-size: 17px;
+    margin-right: auto;
+   }
+  
+   header div img.logo{
+       width: 80px;
+
+
+   }
+  div.hero h2.message{
+       font-size: 75px;
+ }
+ div section.call-us{margin: 15px;}
+ div section.call-us img{width: 100px;}
+ div section.call-us p{font-size: 30px;}
+ /*IMAGES-COZUMEL*/
+ section.cozumel{
+     display: flex;
+ }
+ section.cozumel div{padding: 10px;}
+
+/*MAIN RULES FOR TOURS*/
+main.tours{ display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;}
+main.tours p{
+    font-size: 18px;
+}
+/*FOOTER-SOCIAL MEDIA*/
+.foot{
+    text-align: center;
+}
+.foot p{
+    font-size: 20px;
+}
+div.socialMedia{
+    justify-self: end;
+}
+footer span#dates{
+    font-size: small;
+}
+ a.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+   }   
+
+}

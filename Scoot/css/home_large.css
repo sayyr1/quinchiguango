@@ -1,0 +1,68 @@
+@media only screen and (min-width: 64em){
+/*BODY GENERAL RULES*/
+main, header, nav, footer{ max-width: 1024px;
+    margin: 0 auto;} 
+/*HEADER RULES HERE*/
+div.logo-title img.logo{width: 80px; margin-right: 10px;}
+header div.logo-title h1#heading{font-size: 35px; margin-bottom: 20px ;}
+nav ul {margin:0;}
+nav ul li{padding:0 30px;}
+div nav ul li a {border-top: none;
+    padding: 10px;
+
+}
+div.navigation ul li a{padding: 5px 2px;}
+ div img.cover{ display:block;
+    margin: 0 auto;
+ }
+ /*MOTTO*/
+main div.hero h2.message{font-size: 70px; margin-left: 40px;}
+main  div.hero{background-color:rgba(0,0,0,0.1332);}
+/*CALL US*/
+div.hero section.call-us{margin-left: 40px;}
+ /*IMAGES-COZUMEL*/
+div.information section.cozumel{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+div.coz-1{
+    justify-self: end;
+}
+div.coz-2{
+    justify-self: start;}
+
+/*TYPE OF RENTALS*/
+div.rent section.type-rent{
+    grid-column: 1;
+    justify-self: start;
+    font-size: 20px;
+}
+
+/*WEATHER SUMMARY*/
+div.weather h2{
+    margin-right: 0;
+    font-size: 30px;
+}
+main div.forecast section.forecast-heading{
+    grid-column: 1/2;
+    justify-self: start;
+}
+main div.forecast section.forecast-heading h2{
+    font-size: 30px;   
+}
+main div.forecast section.fore1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+main div.forecast section.fore2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+main div.forecast section.fore3{
+    grid-column: 3/4;
+    grid-row: 2/3;   
+}
+
+}

@@ -1,0 +1,97 @@
+@media only screen and (min-width:35rem){
+    /*HEADER RULES*/
+    div.logo-title{display: flex; margin:10px 5px 0 10px;}
+    header div.logo-title h1{margin-left: 10px;
+        font-size: 33px;
+    
+    }
+    header{display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+    /*NAVAGATION RULES*/
+   
+   div.navigation{margin-top: 20px;}
+   div.navigation nav button{display: none;}
+ 
+   div nav ul.hide{ display: flex; flex-direction: row;
+    width: fit-content;
+    margin-top: 5px;
+   }
+   div nav ul li a{
+    text-align: center; 
+    padding: 5px 10px;
+    font-size: 17px;
+    margin-right: auto;
+   }
+  
+   header div img.logo{
+       width: 80px;
+
+
+   }
+  div.hero h2.message{
+       font-size: 75px;
+ }
+ div section.call-us{margin: 15px;}
+ div section.call-us img{width: 100px;}
+ div section.call-us p{font-size: 30px;}       
+ 
+ /*RENTALS IMAGES*/
+section.scooty{
+    display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));}
+section.scooty figure {
+    margin-left:32px;
+}
+section.scooty img{width: 100%;}
+    
+/*TABLE*/
+section.specifications{
+    display: none;
+}
+.table1{
+    display: none;
+}
+main div.table2{
+    display:table;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 3px;
+}
+main div.table2 table, main div.table2 th,main div.table2 td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+main div.table2 thead tr:nth-child(1){
+    background-color: #7fc3ff;
+}
+
+
+/*FOOTER-SOCIAL MEDIA*/
+.foot{
+    text-align: center;
+}
+.foot p{
+    font-size: 20px;
+}
+div.socialMedia{
+    justify-self: end;
+}
+footer span#dates{
+    font-size: small;
+}
+ a.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+   }   
+
+}

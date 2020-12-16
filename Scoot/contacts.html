@@ -1,0 +1,98 @@
+<!Doctype html>
+<html lang="en-us">
+
+<head>
+  <link rel="shortcut icon" href="images/scoot.ico">
+  <title>Scoots Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale maximum-scale=1">
+  <!--STYLE SHEETS-->
+  <link href="css/contacts_large.css" rel="stylesheet">
+  <link href="css/contacts_medium.css" rel="stylesheet">
+  <link href="css/contacts_small.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <!--SCRIPT LINKS-->
+  <script src="js/main.js" defer></script>
+  <script src="js/dates.js" defer></script>
+  <!--FONTS LINKS-->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <!--SOCIAL MEDIA LINKS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!--HEADER AND NAVIGATION PART-->
+  <header>
+    <div class="logo-title">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <h1 id="heading">cozumel-scoots</h1>
+    </div>
+    <!--Navigation-->
+    <div class="navigation">
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li  class="active"><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--HERO IMAGE AND TOPICS-->
+  <main>
+    <div class="contact">
+      <h1>Contact Information</h1>
+      <p>Cozumel Scoot Rent has 2 physical locations on Cuzumel. We going to show you the directions and a guide for the ubications.</p>
+    </div>
+    <div class="contactos">
+    
+    <div class="location1">
+      <h2>Location 1</h2>
+      <p>This one is near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel, you can see the Google Map reference below to see the details of the ubication.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119579.24801399214!2d-87.00640498603488!3d20.51231294881371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1ses!2sec!4v1608068213546!5m2!1ses!2sec" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+    </div>
+
+      <div class="location2">
+      <h2>Location 2</h2>
+      <p>The other is near the Terminal Puerta Maya further south along the coast which caters to the cruise lines and patrons. Below more details. </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3737.7427907014285!2d-86.97723018557394!3d20.47575478630055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCozumel%20Terminal%20Puerta%20Maya!5e0!3m2!1ses!2sec!4v1608089699004!5m2!1ses!2sec" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+    </div>
+  </div>
+  <div>
+    <form>
+      <fieldset>
+        <legend>Contact Us!</legend>
+        <label class="main"> Name <input type="text" name="fname" required></label>
+        <label class="main">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+
+        <div class="div">Comments</div>
+        <label>
+          <textarea class="main" id="main3" name="comments" placeholder="Insert text here..."></textarea>
+           </label>
+      </fieldset>
+     <input class="submitBtn" type="submit" value="Contact">
+      </form>
+  </div>
+  </main>
+    <footer class="foot">
+      <p>
+        Cozumel Scoots Rent|2020 <br> <span id="dates"></span>
+      </p>
+      <div class="socialMedia">
+        <section>
+          <a href="https://www.facebook.com/" target="_blak" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/?hl=es-la" target="_blak" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/?lang=es" target="_blak" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/?hl=es-419" target="_blak" class="fa fa-youtube"></a>
+        </section>
+      
+      </div>
+    </footer>
+</body>
+
+
+</html>

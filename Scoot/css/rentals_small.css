@@ -1,0 +1,228 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/*TEXT RULES*/
+h1, h2, li{font-family: 'Lora', serif;
+}
+
+/*HEADER RULES*/
+
+p, a{font-family:'Merriweather', sans-serif ;}
+div.logo-title{display: flex;}
+header div h1{font-size: 26px; margin: auto;
+  
+  }
+div img.logo{width: 100px;}
+/*NAVIAGATION RULES*/
+nav button{
+  margin: .2rem 2%;
+  background-color: transparent;
+  border:none;
+  font-size: 1.6rem;
+  color: #000;
+}
+nav ul.hide{display:none;}
+nav ul {list-style-type: none;
+        text-align: right; margin-top: 10px;
+        margin: 0;
+        padding: 0;
+        border-radius:20px;
+      }
+nav ul li a{display:block; 
+  text-decoration: none;
+  border-top: 0.5px solid rgba(0,0,0,0.1);
+  padding:8px 4px;
+  margin-right: 10px;
+  font-size:20px;
+  border-radius:10px;
+
+}
+div.navigation{max-width: 100%;}
+div.navigation button{display: block; 
+  margin-left: auto;}
+nav ul{background-color: #ecf0b4; }
+nav ul li a:hover{background-color:#b87a77;
+  color: whitesmoke;
+  border-radius:10px;
+
+}
+nav ul li.active a{
+  background-color: #b87a77;
+  color: white;
+  border-radius:10px;
+}
+/* MOTTO AND COVER*/
+.cover{max-width: 100%;}
+div.hero{position: relative;}
+div.hero h2{position: absolute; left: 0; 
+  top:0; 
+  color:white; 
+  margin-left: 10px;
+  font-size: 32px;
+  background-color: #7fc3ff;
+  display:inline;
+  width: fit-content;
+}
+section.call-us{display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 7px;
+  background-color:#81B1D8 ;
+  border-radius:5px;
+}
+section.call-us img{width: 40px;}
+section.call-us p{color: rgba(0,0,0,0.7);
+   font-size: 12px;
+   font-weight: 600;
+   padding: 4px;
+  }
+
+
+/*MAIN RULES HERE*/
+  /*TABLE RULES*/
+div.table2 {display:none;}
+main div.table1 table, main div.table1 thead, main div.table1 tbody, main div.table1 th, main div.table1 td, main div.table1 tr{
+  display: block;
+}
+
+main div.table1 thead tr{
+  position:absolute;
+  display: none;
+}
+div.table1{ border: 1px solid #ccc}
+main div.table1 td{
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 50%;
+}
+main div.table1 td:before{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 45%;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+main div.table1 table{
+  width: 100%;
+  border-collapse: collapse;
+}
+main div.table1 tr:nth-of-type(odd){
+  background: rgba(0,0,0,0.1);
+}
+main div.table1 tr:nth-of-type(odd) td{
+border-bottom: 1px solid white;}
+div.table1 th{
+  padding: 5px;
+  text-align: left;
+}
+div.table1 td{
+  padding: 5px;
+  text-align: left;
+
+}
+
+div.table1 td:nth-of-type(1):before { content:"Rental Type";}
+div.table1 td:nth-of-type(2):before { content:"Max.Persons";}
+div.table1 td:nth-of-type(3):before { content:" Half Day(3hrs)";}
+div.table1 td:nth-of-type(4):before { content:"Full Day";}
+div.table1 td:nth-of-type(5):before { content:"Half Day(3 hrs)";}
+div.table1 td:nth-of-type(6):before { content:"Full Day";}
+
+div.table1 tbody tr td:nth-child(1){
+font-size: 15px;
+font-weight: 600;  
+}
+/*JEEP IMAGES*/
+.jeep-1, .jeep-2, .jeep-3, .jeep-4, .jeep-5, .jeep-6 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+figcaption{text-align: center;
+  font-weight: 600;
+}
+/*HEADING*/
+div h1{
+  text-align: center;}
+
+  .specifications{
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+
+  }
+ .specifications h3{
+   padding: 5px;
+   border: 1px solid rgba(0,0,0,0.3);
+   border-radius: 5px;
+
+ }
+
+/*FOOTER-SOCIAL MEDIA BUTTOMS*/
+.interest {
+  display: block;
+  text-align: center;
+  border: 2px solid rgba(0,0,0,0.08);
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 5px;
+  background-color:  #9c2c13;
+  color:white;
+}
+.interest:hover{
+  opacity: 0.7;
+}
+.interest a{
+  text-decoration: none;
+  color: white;
+}
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient( to right, white,#f9fae8, white);
+}
+footer p{
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.socialMedia{
+  justify-self: start;
+}
+footer span{
+  font-size: 8px;
+  color: red;
+}
+.fa{
+  padding: 10px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+.fa-twitter{
+  background: #55acee;
+  color: white;
+}
+.fa-twitter{
+  background: #55ACEE;
+}
+.fa-youtube{
+  background: #bb0000;
+  color: white;
+}
+ .fa:hover{
+  opacity: 0.7;
+
+}
+

@@ -1,0 +1,181 @@
+<!Doctype html>
+<html lang="en-us">
+
+<head>
+  <link rel="shortcut icon" href="images/scoot.ico">
+  <title>Scoots Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale maximum-scale=1">
+  <!--STYLE SHEETS-->
+  <link href="css/home_large.css" rel="stylesheet">
+  <link href="css/home_medium.css" rel="stylesheet">
+  <link href="css/home_small.css" rel="stylesheet">
+  <link href="css/home_normalize.css" rel="stylesheet">
+  <!--SCRIPT LINKS-->
+  <script src="js/main.js" defer></script>
+  <script src="js/dates.js" defer></script>
+  <!--FONTS LINKS-->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <!--SOCIAL MEDIA LINKS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!--HEADER AND NAVIGATION PART-->
+  <header>
+    <div class="logo-title">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <h1 id="heading">cozumel-scoots</h1>
+    </div>
+    <!--Navigation-->
+    <div class="navigation">
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--HERO IMAGE AND TOPICS-->
+  <main>
+    <!--Hero Image-->
+    <div class="hero">
+      <picture class="heroimage">
+        <source media="(max-width: 200px)" srcset="images/small.jpg">
+        <source media="(max-width: 500px)" srcset="images/medium.jpg">
+        <source media="(max-width: 800px)" srcset="images/large.jpg">
+        <img src="images/hero.jpg" alt="otavalo" class="cover">
+      </picture>
+      <h2 class="message">Enjoy<br>the views<br>of Cozumel<br> Island</h2>
+      <section class="call-us"><img src="images/phone.png" alt="phone">
+        <p>Call Us!:(+52)982-9302</p>
+      </section>
+    </div>
+     <!--AVALIBLE FOR RENT-->
+
+     <div class="rent">
+      <section class="type-rent">
+        <h2>Type of Rentals</h2>
+      </section>
+
+      <section class="honda">
+        <h3>Honda Motor Scooter</h3>
+        <ul>
+          <li>Honda Metropolitan (49cc) -1 person</li>
+          <li>Honda Dio (110cc) - 2 person</li>
+          <li>Honda PCX150 (149cc) - 2 person
+          </li>
+        </ul>
+      </section>
+      <section class="atv">
+        <h3>ATV Side-by-Side
+        </h3>
+        <ul>
+          <li>Honda Pioneer 1000
+          </li>
+        </ul>
+      </section>
+      <section class="jeep">
+        <h3>Jeep Rentals
+        </h3>
+        <ul>
+          <li>4-door Jeep Wrangler - manual with A/C - 5 people max
+          </li>
+          <li>2-door Jeep Wrangler - open air - manual - 4 people max
+          </li>
+        </ul>
+      </section>
+      <section class="click">
+       <a href="rentals.html"><p>
+          Click for Rental Information
+        </p></a>
+      </section>
+    </div>
+    <!--INFORMATION ABOUT THE SITE-->
+    <div class="information">
+      <h2>Cozumel Scoots Rent</h2>
+      <p>&#9866; Cozumel Scoots Rent provides an easy and friendly rent service of motor scooters, jeeps, and
+        side-by-side ATVs,in the marvelous island of Cozumel.&#9866; </p>
+      <section class="cozumel">
+        <div class="coz-1">
+          <img class="cozumel-1" src="images/placeholder.png" alt="cozumel" data-src="images/cozumel-1.jpg">
+        </div>
+        <div class="coz-2">
+          <img class="cozumel-2" src="images/placeholder.png" alt="cozumel" data-src="images/cozumel-2.jpg">
+        </div>
+      </section>
+    </div>
+   
+    <!--WEATHER INFORMATION-->
+    <div class="weather">
+      <section>
+        <div>
+          <h2>Weather Summary</h2>
+          <div class="weath">
+            <p><b>Currently: </b><span id="temp"></span>°F</p>
+            <p><b>High:</b>: <span id="high"></span>°F</p>
+            <p><b>Humidity:</b> <span id="humidity"></span>%</p>
+            <p><b>Wind Speed:</b> <span id="speed"></span>mph</p>
+          </div>
+      </section>
+    </div>
+    <!--WEATHER FORECAST-->
+
+    <!--5 DAYS FORECAST-->
+    <div class="forecast">
+      <section class="forecast-heading">
+        <h2>3 Day Forecast</h2>
+      </section>
+      <section class="fore1">
+        <h5 id="dayofweek1"></h5>
+        <img id="img1" alt="cloudy">
+        <p> <span id="forecast1"></span> °F</p>
+      </section>
+      <section class="fore2">
+        <h5 id="dayofweek2"></h5>
+        <img id="img2" alt="cloudy">
+        <p> <span id="forecast2"></span> °F</p>
+      </section>
+      <section class="fore3">
+        <h5 id="dayofweek3"></h5>
+        <img id="img3" alt="cloudy">
+        <p> <span id="forecast3"></span> °F</p>
+      </section>
+
+
+    </div>
+
+    <!--EVENTS-->
+    <section class="events">
+      <h2 id="title_events"></h2>
+      <p id="event1"></p>
+      <p id="event2"></p>
+      <p id="event3"></p>
+    </section>
+    </div>
+  </main>
+  <footer class="foot">
+    <p>
+      Cozumel Scoots Rent|2020 <br> <span id="dates"></span>
+    </p>
+    <div class="socialMedia">
+      <section>
+        <a href="https://www.facebook.com/" target="_blak" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/?hl=es-la" target="_blak" class="fa fa-instagram"></a>
+        <a href="https://twitter.com/?lang=es" target="_blak" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/?hl=es-419" target="_blak" class="fa fa-youtube"></a>
+      </section>
+    
+    </div>
+
+  </footer>
+</body>
+
+
+</html>

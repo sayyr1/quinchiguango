@@ -1,0 +1,56 @@
+{ 
+    "rental": [
+    {   
+        "Rentaltype": "Honda Metro Scooter",
+        "Maxpersons": 1,
+        "Halfday3": 20,
+        "Fullday1": 30,
+        "Halfday3h": 25,
+        "Fullday": 35
+    },
+    {
+        "Rentaltype": "Honda Dio Scooter",
+        "Maxpersons": 2,
+        "Halfday3": 30,
+        "Fullday1": 40,
+        "Halfday3h": 35,
+        "Fullday": 45
+    },
+
+    {
+        "Rentalype": "Honda PCX150 Scooter",
+        "Maxpersons": 2,
+        "Halfday3": 40,
+        "Fullday1": 50,
+        "Halfday3h": 45,
+        "Fullday": 55
+    },
+
+    {
+        "Rentaltype": "Honda Pioneer ATV",
+        "Maxpersons": 4,
+        "Halfday3": 50,
+        "Fullday1": 70,
+        "Halfday3h": 60,
+        "Fullday": 80
+    },
+
+    {
+        "Rentaltype": "Jeep Wrangle-4 door with a/c",
+        "Maxpersons": 5,
+        "Halfday3": 70,
+        "Fullday1": 100,
+        "Halfday3h": 85,
+        "Fullday": 125
+    },
+    {
+        "Rentaltype": "Jeep Wrangle - 2 door",
+        "Maxpersons": 4,
+        "Halfday3": 60,
+        "Fullday1": 85,
+        "Halfday3h": 70,
+        "Fullday": 85
+    }
+]
+    
+}

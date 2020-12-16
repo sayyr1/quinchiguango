@@ -1,0 +1,121 @@
+<!Doctype html>
+<html lang="en-us">
+
+<head>
+  <link rel="shortcut icon" href="images/scoot.ico">
+  <title>Scoots Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale maximum-scale=1">
+  <!--STYLE SHEETS-->
+  <link href="css/reservation_large.css" rel="stylesheet">
+  <link href="css/reservation_medium.css" rel="stylesheet">
+  <link href="css/reservation_small.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <!--SCRIPT LINKS-->
+  <script src="js/main.js" defer></script>
+  <script src="js/dates.js" defer></script>
+
+  <!--FONTS LINKS-->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <!--SOCIAL MEDIA LINKS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!--HEADER AND NAVIGATION PART-->
+  <header>
+    <div class="logo-title">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <h1 id="heading">cozumel-scoots</h1>
+    </div>
+    <!--Navigation-->
+    <div class="navigation">
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li class="active"><a href="reservation.html">Reservation</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--HERO IMAGE AND TOPICS-->
+  <main>
+    <div><h1>Reservation</h1></div>
+    <section class="agree">
+      <h2> Agreement Information</h2>      
+      <ul>
+        <li>A $50 security deposit is required to confirm reservations.</li>
+        <li>A valid drivers license is required in hand at time of rental.
+        </li>
+        <li>No one under 12 years of age are allowed to ride on the scooters.
+        </li>
+        <li>Fuel charge not included.
+        </li>
+        <li>Unlimited mileage.
+        </li>
+        <li>Liability insurance is free of charge.
+        </li>
+        <li>Reservations rate requires 24 hour prior notification.
+        </li>
+        <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+        </li>
+        <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.
+        </li>
+        <li>Rentals may be returned to either location.
+        </li>
+      </ul>
+    </section>
+    <section class="reserve">
+      <form method="get" action="resserve.html">
+        <fieldset>
+          <legend>Details for the Reservation</legend>
+          <label class="main" id="main1">Rental Date<input type="date" name="sdate"></label>
+          <label class="main"> Period <input type="text" name="fname" required></label>
+          <label class="main" id="main2">Rental Type<input name="stype" list="lists"> </label>
+          <datalist id="lists">
+            <option>~Honda Metro Scooter	</option>
+            <option>~Honda Dio Scooter	</option>
+            <option>~Honda PCX150 Scooter	</option>
+            <option>Honda Pioneer ATV	</option>
+            <option>Jeep Wrangler - 4 door with a/c	</option>
+            <option>Jeep Wrangler - 2 door	</option>
+          </datalist>
+          <label class="main">Number of Scooters<input type="number" name="number" required></label>
+          <label class="main">Phone Number <input type="tel" name="phone" placeholder="123333345" required></label>
+          <label class="main">Full Name <input type="text" name="fname" required></label>
+          <label class="main">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="main">Home State or Country <input type="text" name="fname" required></label>
+          <label class="main">Cruise Line cruise (if applicable) <input type="text" name="fname"></label>
+          <div class="div"> Special Accommodations/Comments</div>
+          <label> 
+            <textarea class="main" id="main3" name="comments" placeholder="Insert text here..."></textarea>
+             </label>
+        </fieldset>
+       <input class="submitBtn" type="submit" value="Reserve">
+        </form>
+    </section>
+  </main>
+  <footer class="foot">
+    <p>
+      Cozumel Scoots Rent|2020 <br> <span id="dates"></span>
+    </p>
+    <div class="socialMedia">
+      <section>
+        <a href="https://www.facebook.com/" target="_blak" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/?hl=es-la" target="_blak" class="fa fa-instagram"></a>
+        <a href="https://twitter.com/?lang=es" target="_blak" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/?hl=es-419" target="_blak" class="fa fa-youtube"></a>
+      </section>
+    
+    </div>
+
+  </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,147 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/*TEXT RULES*/
+h1, h2, li{font-family: 'Lora', serif;
+}
+
+/*HEADER RULES*/
+
+p, a{font-family:'Merriweather', sans-serif ;}
+div.logo-title{display: flex;}
+header div h1{font-size: 26px; margin: auto;
+  
+  }
+div img.logo{width: 100px;}
+/*NAVIAGATION RULES*/
+nav button{
+  margin: .2rem 2%;
+  background-color: transparent;
+  border:none;
+  font-size: 1.6rem;
+  color: #000;
+}
+nav ul.hide{display:none;}
+nav ul {list-style-type: none;
+        text-align: right; margin-top: 10px;
+        margin: 0;
+        padding: 0;
+        border-radius:20px;
+      }
+nav ul li a{display:block; 
+  text-decoration: none;
+  border-top: 0.5px solid rgba(0,0,0,0.1);
+  padding:8px 4px;
+  margin-right: 10px;
+  font-size:20px;
+  border-radius:10px;
+
+}
+div.navigation{max-width: 100%;}
+div.navigation button{display: block; 
+  margin-left: auto;}
+nav ul{background-color: #ecf0b4; }
+nav ul li a:hover{background-color:#b87a77;
+  color: whitesmoke;
+  border-radius:10px;
+
+}
+nav ul li.active a{
+  background-color: #b87a77;
+  color: white;
+  border-radius:10px;
+}
+/*MAIN*/
+main div.contact{
+  text-align: center;
+}
+main div.contact p{
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+div.location1{
+  text-align: center;
+    background: linear-gradient(to right, white, rgba(255, 170, 170, 0.5), white);
+    padding: 20px;
+    margin-top: 20px;
+}
+div.location2{
+  text-align: center;
+    background: linear-gradient(to right, white, rgba(129, 177, 219, 0.3), white);
+    padding: 20px;
+    margin-top: 20px;
+}
+iframe{
+  width: 100%;
+}
+/*CONTACT US*/
+form{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+label {
+  padding: 10px;
+  display: block;}
+  textarea{
+    width: 15rem;
+    display: block;
+    margin-left: -200px;
+  }
+.div{
+  margin-left: 12px;
+}
+.submitBtn{
+  width: 10rem;
+  margin: 0 auto ;
+  margin-top: 5px;
+
+}
+/*FOOTER-SOCIAL MEDIA BUTTOMS*/
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient( to right, white,#f9fae8, white);
+}
+footer p{
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.socialMedia{
+  justify-self: start;
+}
+footer span{
+  font-size: 8px;
+  color: red;
+}
+.fa{
+  padding: 10px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+.fa-twitter{
+  background: #55acee;
+  color: white;
+}
+.fa-twitter{
+  background: #55ACEE;
+}
+.fa-youtube{
+  background: #bb0000;
+  color: white;
+}
+ .fa:hover{
+  opacity: 0.7;
+
+}
+

@@ -1,0 +1,19 @@
+@media only screen and (min-width: 64em){
+/*BODY GENERAL RULES*/
+main, header, nav, footer{ max-width: 1024px;
+    margin: 0 auto;} 
+/*HEADER RULES HERE*/
+div.logo-title img.logo{width: 80px; margin-right: 10px;}
+header div.logo-title h1#heading{font-size: 35px; margin-bottom: 20px ;}
+nav ul {margin:0;}
+nav ul li{padding:0 30px;}
+div nav ul li a {border-top: none;
+    padding: 10px;
+
+}
+div.navigation ul li a{padding: 5px 2px;}
+ div img.cover{ display:block;
+    margin: 0 auto;
+ }
+ 
+}
