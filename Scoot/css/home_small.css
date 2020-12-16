@@ -227,36 +227,36 @@ footer span{
   font-size: 8px;
   color: red;
 }
-.fa{
-  padding: 10px;
-  font-size: 20px;
-  width: 10px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 10px;
-}
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-.fa-instagram{
-  background: #125688;
-  color: white;
-}
-.fa-twitter{
-  background: #55acee;
-  color: white;
-}
-.fa-twitter{
-  background: #55ACEE;
-}
-.fa-youtube{
-  background: #bb0000;
-  color: white;
-}
- .fa:hover{
-  opacity: 0.7;
-
-}
-
+  .fa{
+    padding: 10px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  }
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter{
+    background: #55acee;
+    color: white;
+  }
+  .fa-twitter{
+    background: #55ACEE;
+  }
+  .fa-youtube{
+    background: #bb0000;
+    color: white;
+  }
+   .fa:hover{
+    opacity: 0.7;
+  
+  }
+  
