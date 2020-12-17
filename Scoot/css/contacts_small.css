@@ -82,9 +82,9 @@ label {
   padding: 10px;
   display: block;}
   textarea{
-    width: 15rem;
+    width: 16rem;
     display: block;
-    margin-left: -200px;
+    margin-left: 0px;
   }
 .div{
   margin-left: 12px;
@@ -93,7 +93,19 @@ label {
   width: 10rem;
   margin: 0 auto ;
   margin-top: 5px;
-
+}
+div.contacts{
+  background: linear-gradient( to right, white, rgba(0,0,0,0.1), white);
+  margin: 20px 0px;
+}
+div.contacts form{
+  margin: 0 auto;
+  padding: 20px 0px ;
+}
+fieldset{
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #b87a77;
 }
 /*FOOTER-SOCIAL MEDIA BUTTOMS*/
 footer{
