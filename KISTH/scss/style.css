@@ -1,0 +1,140 @@
+html {
+  background-color: inherit;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 78, 78, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/hero.png);
+  background: linear-gradient(rgba(80, 78, 78, 0.4), rgba(0, 0, 0, 0.4)), url(/images/hero.png);
+  height: 130vh;
+  max-width: 100%;
+  background-position: top;
+  background-size: cover;
+  padding-left: 10%;
+  padding-right: 10%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2px;
+}
+
+nav ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ff5361;
+}
+
+.logo {
+  width: 110px;
+}
+
+.upload-btn {
+  background: #ff5361;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 30px;
+  margin-left: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.upload-btn:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.content input {
+  width: 90%;
+  max-width: 840px;
+  height: 55px;
+  border-radius: 30px;
+  border: none;
+  padding: 0 30px;
+  outline: none;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.content a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.content a:hover {
+  color: #ff5361;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 500;
+}
+
+:-ms-input-placeholder {
+  font-weight: 500;
+}
+
+::-ms-input-placeholder {
+  font-weight: 500;
+}
+
+::placeholder {
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
