@@ -1,0 +1,292 @@
+html, header, main {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: auto 0;
+  background-color: #f5e5e5;
+}
+
+div.felicitacion {
+  position: relative;
+  width: 100%;
+  height: 25vw;
+  background-color: #c36666;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.felicitacion h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-animation: titulo 2s linear forwards;
+          animation: titulo 2s linear forwards;
+}
+
+.heart {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 45%;
+  width: 100px;
+  height: 90px;
+  -webkit-animation: titulo 2s linear forwards;
+          animation: titulo 2s linear forwards;
+  -webkit-animation: corazon 1s linear infinite;
+          animation: corazon 1s linear infinite;
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50px;
+  width: 50px;
+  height: 80px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+
+div.que_paso section {
+  display: block;
+  background-color: #019c9c;
+  width: 50%;
+  height: 25rem;
+  margin: 0 auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 25rem;
+}
+
+div.que_paso section:nth-of-type(1) {
+  margin-top: 15rem;
+}
+
+div.que_paso section:nth-of-type(odd) {
+  -webkit-animation: right 2s linear forwards;
+          animation: right 2s linear forwards;
+}
+
+div.que_paso section:nth-of-type(even) {
+  -webkit-animation: left 2s linear forwards;
+          animation: left 2s linear forwards;
+}
+
+div.que_paso section h2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  padding: 4.5rem;
+  font-size: 5rem;
+  -webkit-animation: corazon 3s linear infinite;
+          animation: corazon 3s linear infinite;
+}
+
+section.comienzo {
+  font-size: 4rem;
+  text-align: center;
+  color: #f5e5e5;
+  background-color: #690101;
+  -webkit-animation: left 5s infinite;
+          animation: left 5s infinite;
+}
+
+.fotos section {
+  padding: 20rem 0;
+}
+
+.fotos img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 8rem;
+  max-width: 100%;
+  -webkit-animation: fotos 4s cubic-bezier(0, 0.8, 0.5, 1.5) infinite;
+          animation: fotos 4s cubic-bezier(0, 0.8, 0.5, 1.5) infinite;
+}
+
+.fotos p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.fotos h2 {
+  color: #690101;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+div.final h3 {
+  color: #9c0101;
+  font-size: 6rem;
+}
+
+div.eterno {
+  height: 40rem;
+}
+
+div.eterno h2 {
+  font-size: 40000rem;
+  color: #019c9c;
+  height: rem;
+  text-align: center;
+  font-size: 6rem;
+}
+
+/*Amimations*/
+@-webkit-keyframes corazon {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: 2;
+            transform: 2;
+  }
+}
+@keyframes corazon {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: 2;
+            transform: 2;
+  }
+}
+
+@-webkit-keyframes titulo {
+  0% {
+    -webkit-transform: rotate(45deg) translateX(-100%);
+            transform: rotate(45deg) translateX(-100%);
+  }
+  100% {
+    -webkit-transform: rotate(0) translateX(0);
+            transform: rotate(0) translateX(0);
+  }
+}
+
+@keyframes titulo {
+  0% {
+    -webkit-transform: rotate(45deg) translateX(-100%);
+            transform: rotate(45deg) translateX(-100%);
+  }
+  100% {
+    -webkit-transform: rotate(0) translateX(0);
+            transform: rotate(0) translateX(0);
+  }
+}
+
+@-webkit-keyframes left {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  50% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes left {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  50% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fotos {
+  0%, 100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+  25% {
+    -webkit-transform: rotateZ(-20deg);
+            transform: rotateZ(-20deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(20deg);
+            transform: rotateZ(20deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(-10deg);
+            transform: rotateZ(-10deg);
+  }
+  90%, 100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fotos {
+  0%, 100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+  25% {
+    -webkit-transform: rotateZ(-20deg);
+            transform: rotateZ(-20deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(20deg);
+            transform: rotateZ(20deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(-10deg);
+            transform: rotateZ(-10deg);
+  }
+  90%, 100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

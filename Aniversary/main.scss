@@ -1,0 +1,204 @@
+$guindo: #9c0101;
+$azul_complemento:#019c9c;
+$bajo_monocromatico: #e80101;
+$alto_monocromatico:#690101;
+$background: #c36666;
+$background_html: #f5e5e5;
+html, header, main{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: auto 0;
+    background-color: $background_html ;
+}
+div.felicitacion{
+    position: relative;
+    width: 100%;
+    height: 25vw;
+    background-color: $background;
+    align-items: center;
+    h1{
+        display: flex;
+        font-size: 6rem;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        animation: titulo 2s linear forwards;
+    }
+}
+.heart {
+    justify-content: center;
+     position: absolute;
+     left: 45%;
+    width: 100px;
+      height: 90px;
+      animation: titulo 2s linear forwards;
+
+      animation: corazon 1s linear infinite;
+    }
+    .heart:before,
+    .heart:after {
+      position: absolute;
+      content: "";
+      top:0;
+      left: 50px;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    .heart:after {
+      left: 0;
+      transform : rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+    div.que_paso{
+       section{
+
+        &:nth-of-type(1){
+            margin-top: 15rem;
+        }
+        &:nth-of-type(odd){
+            animation: right 2s linear forwards;
+        }
+
+        &:nth-of-type(even){
+            animation: left 2s linear forwards;
+        }
+
+
+
+           display: block;
+        background-color: $azul_complemento;
+        width: 50%;
+        height: 25rem;
+        margin: 0 auto;
+        align-content: center;
+        margin-bottom: 25rem;
+
+        h2{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            text-align: center;
+            padding: 4.5rem;
+            font-size: 5rem;
+            animation: corazon 3s linear infinite;
+
+        }
+       }
+    }
+    
+
+section.comienzo{
+    font-size: 4rem;
+    text-align: center;
+    color: $background_html;
+    background-color: $alto_monocromatico;
+    animation: left 5s infinite;
+}
+
+
+
+
+
+
+
+
+.fotos{
+    section{
+        padding: 20rem 0;
+    }
+    img{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 8rem;
+        max-width: 100%;
+        animation: fotos 4s cubic-bezier(0, .8, .5, 1.5) infinite;
+
+    }
+    p{
+        text-align: center;
+        font-size: 3rem;
+    }
+    h2{
+        color: $alto_monocromatico;
+        font-size: 3.5rem;
+        text-align: center;
+      
+    }}
+    div.final{
+
+        h3{
+            color: $guindo;
+            font-size: 6rem;
+        }
+    }
+    div.eterno{
+        height: 40rem;
+        h2{
+            font-size: 40000rem;
+            color: $azul_complemento;
+            height: rem;
+        text-align: center;
+            font-size: 6rem;
+        }
+    }
+
+    
+    /*Amimations*/
+    @keyframes corazon{
+        0%{
+            transform: scale(1);
+        }
+        50%{transform: scale(0.5);}
+        100%{transform: 2;}
+    }
+
+    @keyframes titulo{
+        0%{transform: rotate(45deg) translateX(-100%);
+        
+        
+        }
+      
+        100%{
+            transform: rotate(0) translateX(0);
+        }
+    }
+
+    @keyframes left{
+        0%{transform:  translateX(-100%);
+        
+    
+        }
+      
+        50%{
+            transform:  translateX(100%);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+
+
+@keyframes fotos{
+    0%, 100% {
+        transform: none;
+    }
+    25%{
+        transform: rotateZ(-20deg);
+    }
+    50%{
+        transform: rotateZ(20deg);
+    }
+    75%{
+        transform: rotateZ(-10deg);
+    }
+    90%, 100%{
+        transform: none;
+
+    }
+}
